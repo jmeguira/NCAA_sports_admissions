@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*!
+ * FSU: Strata Two Print
+ */
+
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, ul, ol, li, dl, dd, dt,
+a,
+code,
+.boxed,
+header .strata,
+header .container,
+.strata .fsu-title,
+.strata .fsu-subhead,
+.strata,
+.strata .container,
+.fsu-nav-social,
+#content
+{
+	background-image: none !important;
+	background-color: transparent !important;
+	color: #000 !important;
+	border: 0 !important;
+	text-shadow: none !important;
+}
+
+html body .strata .boxed,
+html body .strata .boxed-alt,
+html body .strata a .boxed,
+html body .strata a .boxed-alt
+{
+	background-color: transparent !important;
+	color: #000 !important;
+	border-color: #999 !important;
+}
+
+.fsu-home,
+.fsu-nav-utility,
+.fsu-utilities,
+.fsu-nav-global,
+.fsu-seal,
+nav,
+.navbar,
+.carousel
+{display: none;}
+
+
+
+.strata .btn {background-color: #fff !important; color: #000 !important; border-color: 1px #000 solid !important;}
